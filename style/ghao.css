@@ -1,0 +1,51 @@
+@charset "utf-8";
+*{padding:0; margin:0;}
+body{font-family:"微软雅黑"; font-size:12px; line-height:24px; color:#333;}
+ul,li{ list-style:none;}
+img{ border:0;}
+.gh_bai{width:100%; height:auto; overflow:hidden; background:url(../images/baibg.jpg) no-repeat center top;}
+.gh_hei{width:100%; height:auto; overflow:hidden; background:url(../images/heibg.jpg) no-repeat center top;}
+
+.main_box{width:1200px; height:auto; margin:0 auto; overflow:hidden; margin-top:375px;}
+.gh_bai .g_hao1{width:508px; height:422px; float:left; margin-left:18px;}
+.gh_bai .g_hao1 dl dt{width:100%; height:auto; overflow:hidden; padding:50px 0 60px 0;}
+.gh_bai .g_hao1 dl dt ul{width:100%; height:auto; float:left; background:url(../images/baiico.png) no-repeat left top;}
+.gh_bai .g_hao1 dl dt ul li{width:100%; font-size:22px; height:30px; line-height:30px; text-indent:122px;}
+.gh_bai .g_hao1 dl dt ul li span{color:#017baa;}
+.gh_bai .g_hao1 dl dd h6{color:#017baa; font-size:23px; padding-bottom:40px;}
+.gh_bai .g_hao1 dl dd ul li{color:#272727; font-size:22px; height:30px; line-height:30px; text-indent:30px;}
+.gh_bai .g_hao1 dl dd ul li.a1{ background:url(../images/bai_ico_01.png) no-repeat left center;}
+.gh_bai .g_hao1 dl dd ul li.a2{background:url(../images/bai_ico_02.png) no-repeat left center;}
+.gh_bai .g_hao2{width:608px; height:420px; float:right; border:1px solid #cacbcb; background:#fff; padding-left:40px;  margin-right:18px;}
+.gh_bai .g_hao2 dl dt{width:100%;text-align:center; font-size:29px; color:#0387b3;margin:30px 0 10px 0;}
+.gh_bai .g_hao2 dl dd{width:100%; float:left; font-size:20px; color:#353535; margin-top:22px;}
+.gh_bai .g_hao2 dl dd .text{width:80px; height:25px; line-height:25px; border:1px solid #b4b4b4; text-indent:10px;}
+.gh_bai .g_hao2 dl dd .text2{width:36px; height:25px; line-height:25px; border:1px solid #b4b4b4;}
+.gh_bai .g_hao2 dl dd .text3{width:312px; height:25px; line-height:25px; border:1px solid #b4b4b4; text-align:left;}
+.gh_bai .g_hao2 dl dd .text4{width:25px; height:25px; line-height:25px; border:1px solid #b4b4b4; text-align:center;}
+.gh_bai .g_hao2 dl dd textarea{width:482px; height:97px; border:1px solid #b4b4b4; float:left; line-height:22px; font-size:13px; text-indent:10px;}
+.gh_bai .g_hao2 dl dd p{ float:left;}
+.gh_bai .g_hao2 dl dd .submit{width:133px; height:33px; background:#007aaa; line-height:33px; text-align:center; font-size:18px; color:#fff; border:none; margin:0 auto; display:block; cursor:pointer;}
+.gh_bai .g_hao3{width:100%; height:auto; padding:30px 0; overflow:hidden;}
+
+
+.gh_hei .g_hao1{width:508px; height:422px; float:left; margin-left:18px;}
+.gh_hei .g_hao1 dl dt{width:100%; height:auto; overflow:hidden; padding:50px 0 60px 0;}
+.gh_hei .g_hao1 dl dt ul{width:100%; height:auto; float:left; background:url(../images/heiico.png) no-repeat left top;}
+.gh_hei .g_hao1 dl dt ul li{width:100%; font-size:22px; height:30px; line-height:30px; text-indent:122px; color:#fab600;}
+.gh_hei .g_hao1 dl dt ul li span{color:#fff;}
+.gh_hei .g_hao1 dl dd h6{color:#017baa; font-size:23px; padding-bottom:40px;}
+.gh_hei .g_hao1 dl dd ul li{color:#fff; font-size:22px; height:30px; line-height:30px; text-indent:30px;}
+.gh_hei .g_hao1 dl dd ul li.a1{ background:url(../images/bai_ico_01.png) no-repeat left center;}
+.gh_hei .g_hao1 dl dd ul li.a2{background:url(../images/bai_ico_02.png) no-repeat left center;}
+.gh_hei .g_hao2{width:608px; height:420px; float:right; border:1px solid #cacbcb; padding-left:40px;  margin-right:18px;}
+.gh_hei .g_hao2 dl dt{width:100%;text-align:center; font-size:29px; color:#f8b500; margin:30px 0 10px 0;}
+.gh_hei .g_hao2 dl dd{width:100%; float:left; font-size:20px; color:#fff; margin-top:22px;}
+.gh_hei .g_hao2 dl dd .text{width:80px; height:25px; line-height:25px; border:1px solid #b4b4b4; text-indent:10px;}
+.gh_hei .g_hao2 dl dd .text2{width:36px; height:25px; line-height:25px; border:1px solid #b4b4b4;}
+.gh_hei .g_hao2 dl dd .text3{width:312px; height:25px; line-height:25px; border:1px solid #b4b4b4; text-align:left;}
+.gh_hei .g_hao2 dl dd .text4{width:25px; height:25px; line-height:25px; border:1px solid #b4b4b4; text-align:center;}
+.gh_hei .g_hao2 dl dd textarea{width:482px; height:97px; border:1px solid #b4b4b4; float:left; line-height:22px; font-size:13px; text-indent:10px;}
+.gh_hei .g_hao2 dl dd p{ float:left;}
+.gh_hei .g_hao2 dl dd .submit{width:133px; height:33px; background:#007aaa; line-height:33px; text-align:center; font-size:18px; color:#fff; border:none; margin:0 auto; display:block; cursor:pointer;}
+.gh_hei .g_hao3{width:100%; height:auto; padding:30px 0; overflow:hidden;}
